@@ -1,10 +1,17 @@
 {
   "name": "reg-keygen-git-parent-hash-plugin",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "lib/index.js",
   "author": "Ryo SUETSUGU <suetsugu.r@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "prepublish": "tsc -p src/tsconfig.build.json"
+  },
+  "dependencies": {
+    "reg-suit-util": "^0.7.25"
+  },
   "devDependencies": {
+    "reg-suit-interface": "^0.7.25",
     "typescript": "^3.6.4"
   }
 }

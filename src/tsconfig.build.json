@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "target": "es2015",
+    "module": "commonjs",
+    "lib": ["esnext", "dom"],
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "stripInternal": true,
+    "strict": true,
+    "rootDir": ".",
+    "outDir": "../lib"
+  }
+}
