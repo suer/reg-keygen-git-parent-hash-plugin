@@ -1,0 +1,7 @@
+{
+  "name": "reg-keygen-git-parent-hash-plugin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ryo SUETSUGU <suetsugu.r@gmail.com>",
+  "license": "MIT"
+}
